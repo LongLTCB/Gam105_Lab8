@@ -27,17 +27,21 @@ public class PlayerControllero : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             Debug.Log(message: "Press D");
-            _re.Play();
+            _sol.Play();
         }
         if (Input.GetKey(KeyCode.A))
         {
             Debug.Log(message: "Getkey A");
-            _mi.Play();
         }
         if (Input.GetKey(KeyCode.D))
         {
             Debug.Log(message: "Getkey D");
-            _fa.Play();
         }
+
+        if(Input.GetKey(KeyCode.S)) _re.Play();
+        if(Input.GetKey(KeyCode.F)) _la.Play();
+        if(Input.GetKey(KeyCode.G)) _si.Play();
+        if(Input.GetKey(KeyCode.H)) _mi.Play();
+        if(Input.GetKey(KeyCode.J)) _fa.Play();
     }
 }

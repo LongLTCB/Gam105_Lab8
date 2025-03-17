@@ -11,6 +11,8 @@ TagManager:
   - son
   - la
   - si
+  - Box
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 

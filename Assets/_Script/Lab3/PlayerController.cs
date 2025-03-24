@@ -2,10 +2,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 10f;
+    [SerializeField] float speed = 10f;
+    [SerializeField] GameObject win;
+    Vector3 firstPosition;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        win.SetActive(false);
+        firstPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -21,8 +25,8 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerMovement()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        float moveHorizontal = Input.GetAxisRaw("Horizontal");
+        float moveVertical = Input.GetAxisRaw("Vertical");
         
         Vector3 movement = new Vector3(x: moveHorizontal, y: moveVertical, z: 0.0f );
         transform.Translate(translation: movement * speed * Time.deltaTime);
@@ -32,12 +36,12 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Vector2 firstPosition = new Vector2(x: -7.5f, y: 3f);
             transform.position = firstPosition;
         }
         if (collision.gameObject.CompareTag("Box"))
         {
-            Debug.Log("Win");
+            win.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 

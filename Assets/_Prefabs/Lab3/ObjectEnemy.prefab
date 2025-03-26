@@ -210,7 +210,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -399163297, guid: 1047be7165fe30446b0b17ea39b4fefd, type: 3}
+  m_Sprite: {fileID: -872957176, guid: 1047be7165fe30446b0b17ea39b4fefd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -236,5 +236,3 @@ MonoBehaviour:
   speed: 3
   A: {fileID: 2625326559245317598}
   B: {fileID: 1567699749500803134}
-  player: {fileID: 7583221656982524923, guid: 586bcbe5c98ce7a40aa31f123749cb2c, type: 3}
-  prefabEnemy: {fileID: 5369951471185083628}

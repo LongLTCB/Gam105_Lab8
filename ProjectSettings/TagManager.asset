@@ -13,6 +13,9 @@ TagManager:
   - si
   - Box
   - Enemy
+  - Coin
+  - TargetPoint
+  - CheckPoint
   layers:
   - Default
   - TransparentFX

@@ -30,6 +30,8 @@ public class UI : MonoBehaviour
     public void YouWinPanel()
     {
         if (GameManager.Ins.CountCoin() > 0) return;
+        AudioManager.Instance.PlayWinSound();
+        AudioManager.Instance.StopMusic();
         Time.timeScale = 0;
         CompletionTimeText.text = "Completion Time: " + Mathf.FloorToInt(Time.time).ToString("F2") + "s";
         youWinPanel.SetActive(true);

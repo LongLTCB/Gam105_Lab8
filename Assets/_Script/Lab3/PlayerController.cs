@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Coin"))
         {
             Destroy(other.gameObject);
+            AudioManager.Instance.PlayCoinSound();
         }
 
         if (other.CompareTag("CheckPoint"))
@@ -76,7 +77,7 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator TargetPoint()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         UI.Ins.YouWinPanel();
     }
 }

@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
         transform.Translate(movement * speed * Time.deltaTime);
     }
 
+    [System.Obsolete]
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
@@ -59,13 +60,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    
+    [System.Obsolete]
     IEnumerator Respawn()
     {
         ani.CrossFade("Fade", 0);
         isRespawning = true;
         GetComponent<Collider2D>().enabled = false;
         yield return new WaitForSeconds(1.5f);
+
+        FindObjectOfType<GameUIManager>().IncreaseDeathCount();
 
         this.transform.position = CheckPoint;
         yield return new WaitForSeconds(0.1f);

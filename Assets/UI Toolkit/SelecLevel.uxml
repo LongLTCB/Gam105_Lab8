@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/SelectLevel.uss?fileID=7433441132597879392&amp;guid=47445b3628a9d05438f2bd8874258a7b&amp;type=3#SelectLevel" />
+    <ui:VisualElement class="container">
+        <ui:Label text="SELECT LEVEL" class="title" style="align-self: center; font-size: 90px; -unity-font-style: bold; color: rgb(1, 13, 255); -unity-text-outline-color: rgb(0, 0, 0);" />
+        <ui:VisualElement class="grid-container">
+            <ui:Button text="1" name="Level1" class="level-button" />
+            <ui:Button text="2" name="Level2" class="level-button" />
+            <ui:Button text="3" name="Level3" class="level-button" />
+        </ui:VisualElement>
+        <ui:Button text="BACK" name="BackButton" class="back-button" style="background-color: rgba(188, 188, 188, 0); font-size: 90px; color: rgb(253, 5, 5);" />
+    </ui:VisualElement>
+</ui:UXML>

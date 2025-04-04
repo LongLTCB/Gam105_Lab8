@@ -1,0 +1,12 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenu.uss?fileID=7433441132597879392&amp;guid=4a066bccb99cd484f9170f0da34764be&amp;type=3#MainMenu" />
+    <engine:VisualElement name="container" class="container" style="flex-grow: 1; -unity-background-image-tint-color: rgba(255, 255, 255, 0.66); background-color: rgba(171, 232, 226, 0.98); -unity-background-scale-mode: stretch-to-fill; background-repeat: no-repeat no-repeat; background-image: none; display: flex;">
+        <engine:Label text="THE WORLD&apos;S...&#10;" name="subtitle" class="subtitle" style="font-size: 150px; align-items: flex-end; align-self: flex-start; -unity-font-style: bold;" />
+        <engine:Label text="HARDEST GAME&#10;" name="title" class="title" style="font-size: 350px; align-self: flex-start; -unity-font-style: bold;" />
+        <engine:Label text="VERSION 1.0" name="version" class="version" style="align-self: center; font-size: 75px; left: 800px;" />
+        <engine:VisualElement name="buttoncontaniner" class="button-container" style="flex-grow: 1; justify-content: center; align-self: auto;">
+            <engine:Button text="PLAY GAME" name="PlayButton" class="button button-red" style="width: 1438px; height: 519px; font-size: 120px; background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+            <engine:Button text="LEVEL SELECT" name="LevelSelectButton" class="button button-blue" style="height: 514px; width: 1444px; font-size: 120px; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); background-color: rgba(188, 188, 188, 0);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

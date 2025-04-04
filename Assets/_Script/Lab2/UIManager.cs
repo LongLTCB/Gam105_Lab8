@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class UIManager : MonoBehaviour
     public GameObject winPanel;
     public GameObject losePanel;
     public GameObject Play_btn;
+    public Slider hpbar;
     
     private int score = 0;
     private bool isGameOver = false;
@@ -27,6 +29,7 @@ public class UIManager : MonoBehaviour
         winPanel.SetActive(false);
         losePanel.SetActive(false);
         Time.timeScale = 0;
+        hpbar.value = 0;
     }
 
     public void PlayGame()
@@ -90,6 +93,6 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        hpbar.value = score;
     }
 }

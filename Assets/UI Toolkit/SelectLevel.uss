@@ -1,0 +1,13 @@
+.level-button {
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 300px;
+    font-size: 90px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(152, 232, 120);
+}

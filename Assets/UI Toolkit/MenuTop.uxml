@@ -1,7 +1,7 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <engine:VisualElement name="Panel" style="flex-grow: 1;">
         <engine:Button text="Menu" name="MenuButton" style="width: 300px; height: 200px; background-color: rgba(188, 188, 188, 0); font-size: 90px; -unity-font-style: bold; align-self: flex-start; bottom: 50px; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
-        <engine:Label text="1/3" name="LevelLabel" style="align-self: center; align-content: auto; -unity-text-align: upper-left; font-size: 90px; -unity-font-style: bold; top: auto; bottom: 200px; justify-content: flex-start;" />
+        <engine:Label text="1/5" name="LevelLabel" style="align-self: center; align-content: auto; -unity-text-align: upper-left; font-size: 90px; -unity-font-style: bold; top: auto; bottom: 200px; justify-content: flex-start;" />
         <engine:Label text="Deadth: 1 " name="DeathCountLabel" style="align-self: flex-end; font-size: 90px; width: 500px; bottom: 340px; -unity-font-style: bold;" />
     </engine:VisualElement>
 </engine:UXML>

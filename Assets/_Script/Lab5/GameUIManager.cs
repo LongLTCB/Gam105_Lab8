@@ -19,6 +19,9 @@ public class GameUIManager : MonoBehaviour
         // Lấy RootVisualElement từ UI Document
         var root = uiDocument.rootVisualElement;
 
+        PlayerPrefs.DeleteKey("DeathCount");
+        info.deathCount = 0;
+
         // Tìm các UI Elements
         levelLabel = root.Q<Label>("LevelLabel");
         deathCountLabel = root.Q<Label>("DeathCountLabel");
@@ -26,7 +29,7 @@ public class GameUIManager : MonoBehaviour
 
         // Cập nhật số màn chơi
        info.numberLevel = SceneManager.GetActiveScene().buildIndex;
-        levelLabel.text = info.numberLevel + " / 3";
+        levelLabel.text = info.numberLevel + " / 5";
 
         // Load số lần chết từ PlayerPrefs
         info.deathCount = PlayerPrefs.GetInt("DeathCount", 0);

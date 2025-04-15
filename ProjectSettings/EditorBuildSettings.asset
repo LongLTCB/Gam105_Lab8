@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/_Scenes/Lab5/Level3.unity
     guid: 7f5ff680f58195840a80eb9a57c8aff9
   - enabled: 1
+    path: Assets/_Scenes/Lab5/Level4.unity
+    guid: 9633b6872bb6b844591a951526e2513b
+  - enabled: 1
+    path: Assets/_Scenes/Lab5/Level5.unity
+    guid: cd867788f7d4e9948a05a1d23a559024
+  - enabled: 1
     path: Assets/_Scenes/MainMenu.unity
     guid: 5eb80a34448e2e94f874bbbd06d8cab4
   m_configObjects:

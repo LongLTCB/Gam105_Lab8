@@ -6,6 +6,8 @@
             <ui:Button text="1" name="Level1" class="level-button" />
             <ui:Button text="2" name="Level2" class="level-button" />
             <ui:Button text="3" name="Level3" class="level-button" />
+            <ui:Button text="4" name="Level4" class="level-button" />
+            <ui:Button text="5" name="Level5" class="level-button" />
         </ui:VisualElement>
         <ui:Button text="BACK" name="BackButton" class="back-button" style="background-color: rgba(188, 188, 188, 0); font-size: 90px; color: rgb(253, 5, 5);" />
     </ui:VisualElement>

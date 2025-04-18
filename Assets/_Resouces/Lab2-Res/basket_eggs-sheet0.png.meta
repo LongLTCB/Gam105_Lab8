@@ -147,6 +147,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -273,7 +286,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      basket_eggs-sheet0_0: 6602085118537707349
+      basket_eggs-sheet0_1: 557963032209588904
+      basket_eggs-sheet0_2: -3944485073165647276
+      basket_eggs-sheet0_3: 246274498369209102
+      basket_eggs-sheet0_4: -953992451260079176
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

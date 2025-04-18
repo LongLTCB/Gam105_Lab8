@@ -282,6 +282,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1398,7 +1411,57 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pattern_0: 1810633728305061548
+      pattern_1: 8617194269042742271
+      pattern_10: -5230978676949189924
+      pattern_11: -5377420369409482140
+      pattern_12: 1065111464003809243
+      pattern_13: -8552220615197536200
+      pattern_14: 1715405607315903967
+      pattern_15: -1019100901880660204
+      pattern_16: -3670835752948994691
+      pattern_17: -7002156731962664181
+      pattern_18: 890706403777844671
+      pattern_19: -7309881713480592250
+      pattern_2: -2855153772676359606
+      pattern_20: 3789804335177307359
+      pattern_21: -1594971867775493752
+      pattern_22: -5639391695632182615
+      pattern_23: -2728202489442798805
+      pattern_24: 7844777797797820953
+      pattern_25: 4618200713451140688
+      pattern_26: 3303259850975271711
+      pattern_27: -1103980254982294119
+      pattern_28: 5452117025646169643
+      pattern_29: -8385370722788932828
+      pattern_3: 4663090967501940993
+      pattern_30: 8930619938441074437
+      pattern_31: -2872861687249805219
+      pattern_32: -6341673207836505211
+      pattern_33: 1431144977551231271
+      pattern_34: 5870476520007881556
+      pattern_35: 7191324237431856033
+      pattern_36: -8578059534716755254
+      pattern_37: -7594116348367266325
+      pattern_38: 8830027961589772946
+      pattern_39: -3650187835686477088
+      pattern_4: 5304477535928183226
+      pattern_40: 6793506897836991915
+      pattern_41: -3864889706768231874
+      pattern_42: -8019142546330490353
+      pattern_43: -606953424561704019
+      pattern_44: 6022306904305783034
+      pattern_45: 9064484888905487367
+      pattern_46: 6247736978226049795
+      pattern_47: -2058671534209837216
+      pattern_48: 7658898823813460316
+      pattern_49: -4941646400350183908
+      pattern_5: 3840658577204380248
+      pattern_6: -4867486114458328044
+      pattern_7: 996547397488692728
+      pattern_8: -2925851678504050861
+      pattern_9: -6479140607248090282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
